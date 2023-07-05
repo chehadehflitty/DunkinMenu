@@ -17,6 +17,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: white;
   
 }
 
@@ -63,7 +64,6 @@ header a:not(.logo):hover{
 .content{
   position: absolute;
   top: 15%;
-  border-style: solid;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -85,3 +85,15 @@ h2{
   margin: 15px;
 }
 
+.products{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px;
+}
+.products .product{
+  max-width: 300px;
+  max-height: 300px;
+  margin: 50px;
+}
