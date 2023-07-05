@@ -18,3 +18,41 @@ header{
   justify-content: space-around;
 }
 
+.logo img{
+  max-width: 140px;
+  height: auto;
+}
+
+.menu{
+  order: -3;
+  color: #c63663 !important;
+}
+
+.locations{
+  order: -2;
+}
+
+.delivery{
+  order: -1;
+}
+
+.rewards{
+  text-align: center;
+}
+
+.card{
+  text-align: center;
+}
+
+header a:not(.logo){
+  color: black;
+  font-weight: 500;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+header a:not(.logo):hover{
+  text-decoration: underline;
+  color: #c45075;
+  transition: 0.15s;
+}
